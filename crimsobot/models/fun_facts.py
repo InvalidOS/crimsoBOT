@@ -26,6 +26,10 @@ class FunFacts(Model):
         fact = await FunFacts.create(created_by=user, subject=subject, funfact=funfact)
 
         return fact
-
+    
+    @classmethod
+    async def delete_fact(cls, uuid) -> 'FunFacts':
+        await FunFacts.get(uuid=uuid).delete()
+        
     class Meta:
         table = 'fun_facts'
