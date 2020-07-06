@@ -35,6 +35,13 @@ class Utilities(commands.Cog):
 
         if new_fact:
             await ctx.send('Fact added!')
+            
+    async def factdelete(self, ctx: commands.Context, *, something: str) -> None:
+        """Delete a fact, move to admin later"""
+        something2 = int(something)
+        fact_object = await FunFacts.deletefact(something2)
+
+        await ctx.send('Fact suppressed by the order of Crimso.')
 
     @commands.command(brief='Create a poll!')
     @commands.cooldown(1, 20, commands.BucketType.guild)
