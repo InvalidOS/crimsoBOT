@@ -1355,7 +1355,7 @@ description_long: >-
   ultimate lesson of the Swords is: “live by the sword, die by the sword.” Without the emotional depth of the Cups, the
   willpower of the Wands, or the stability of the Pentacles, the airy Swords can only destroy. Without the heart to
   guide it, the mind conceives and perpetrates monstrous things.
-description_long_reversed: >-
+description_long_reversed: >- 
   
 ---
 name: Page of Swords
@@ -1390,6 +1390,11 @@ description_long: >-
   going. Being Air of Air, they are all swiftness and impatience. The Knight of Swords wants his fertile ideas to be
   manifested **now** and will not accept delays.
 description_long_reversed: >-
+  The rushing winds embodied by the Knight have betrayed the Swords' element of Air. The wind never allows the
+  intellect the element of Air embodies to consider its situation and analyze its surroundings. The swords become
+  ineffective because they are being used to deal many imprecise blows, when a single focused cut would be vastly
+  more effective. Slow down, take a deep breath, and reflect on your situation; not everything needs to happen 
+  immediately.
   
 ---
 name: Queen of Swords
